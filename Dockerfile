@@ -12,7 +12,7 @@ ENV GIT_USER=${GIT_USER:-gituser}
 ENV USER_HOME=${USER_HOME:-/home/${GIT_USER}}
 
 RUN \
-  apk add --no-cache bash git-bash-completion && \
+  apk add --no-cache bash git-bash-completion curl jq && \
   adduser -h ${USER_HOME} -s /bin/bash -u 1000 -D ${GIT_USER} && \
   mkdir -p "${DATA_DIR}" && \
   chmod 777 "${DATA_DIR}"

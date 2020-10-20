@@ -1,4 +1,4 @@
-# git_learning
+# Learning Git
 
 Notes on git usage
 
@@ -14,3 +14,10 @@ docker container run -it --rm --hostname git-box -v git_data:/data girishpasupat
 ```
 
 Even if the container goes away, the data is persisted in the volume.
+
+---
+
+## References
+
+* [Git community book](http://shafiul.github.io/gitbook/index.html)
+* [Git udemy course](https://www.udemy.com/share/1013D8CUMfd1lVR34=/)
