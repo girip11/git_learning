@@ -44,3 +44,15 @@ curl -s "https://hipsum.co/api/?type=hipster-centric&sentences=3" | jq
 `git remote add <name> <url>` - used to add remote repo.
 
 `git push <remote_name(origin)> <local_branch_name>:[<remote_branch_name>]` - Push the local branch to remote repo either with same name as local branch or use a different name for remote branch.
+
+## Git clean
+
+`git clean -fxfd --dry-run` - Recursively deletes all files and directories(even the untracked files) taking the git repository to a pristine state(very similar to cloning this repo inside an empty directory). Remove the option `--dry-run` to make those changes.
+
+* `git help clean` - to know more about the `git clean` command
+
+---
+
+## References
+
+* [Anthonywritescode git clean](https://www.youtube.com/watch?v=cE9IRYDMoS8)
