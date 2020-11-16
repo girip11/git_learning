@@ -18,6 +18,7 @@
   mc = commit --amend --verbose
   
   d = diff
+  dt = difftool
   ds = diff --stat
   dc = diff --cached
 
