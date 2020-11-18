@@ -3,9 +3,11 @@
 ```Conf
 [alias]
   # one-line log
+  l = log --oneline
+  lgod = log  --graph --oneline --decorate
+  la = log  --graph --oneline --decorate --all
   ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
   ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
-  lg = log --all --oneline --graph --decorate
 
   a = add
   ap = add -p
