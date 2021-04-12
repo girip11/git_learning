@@ -21,6 +21,8 @@ curl -s "https://hipsum.co/api/?type=hipster-centric&sentences=3" | jq
 
 * `git ls-files` - lists all the files that are currently in the committed state as in the `.git` repo as well as the files in the staging area. Untracked files won't be displayed by this command.
 
+* [`git ls-tree -r <commit_id>`](https://www.youtube.com/watch?v=-JbZi1bRZg8) - Similar to `ls` command on linux.
+
 ## Git add to index/staging area
 
 * `git add <file_name|dir_name>` - Adds the file to the staging area. In case of `dir_name` all the files in the directory are added recursively.

@@ -55,7 +55,7 @@ We can edit the git config using the configured editor with the help of the comm
 * All directories and files matching the `.gitignore` pattern will be ignored by `git`.
 * Always commit `.gitignore` to Git.
 
-To add exclude patterns specific to your local Git repo and if you don't want to commit those to `.gitignore`, add those entires to `.git/info/exclude.` This way none of the collaborators of the project will be affected by your local excludes.
+To add exclude patterns specific to your local Git repo and if you don't want to commit those to `.gitignore`, add those entires to `.git/info/exclude`. This way none of the collaborators of the project will be affected by your local excludes.
 
 --
 

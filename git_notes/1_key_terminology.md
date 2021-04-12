@@ -5,3 +5,13 @@
 * Working directory - holds all the application files(project directory that needs to be version controlled).
 
 Remote repository - for example, github, gitlab, bitbucket etc.
+
+## Web UI on local repo
+
+* `git instaweb` command can launch a local web server to view the local git repository.
+
+---
+
+## References
+
+* [Git instaweb command](https://git-scm.com/docs/git-instaweb)

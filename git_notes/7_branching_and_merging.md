@@ -7,6 +7,7 @@
 * `git branch branch_name` - creates a new branch named `branch_name`
 * `git branch` - Lists all local branches
 * `git branch -a` - lists all the branches including remote branches
+* `git branch --merged` - Lists all the branches merged with the current branch. `git branch --no-merged` will list all those branches that are not merged on to the current branch.
 * `git branch -D branch_name` - Deletes the branch
 * `git branch -m old_name new_name` - Rename a branch
 * `git branch existing_branch_name -u <upstream_branch>` - This makes the `existing_branch_name` track the `upstream_branch`. `git pull`  when on the `existing_branch_name` pulls the changes from this upstream branch.
